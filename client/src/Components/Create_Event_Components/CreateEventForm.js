@@ -1,9 +1,9 @@
 import React from 'react';
 import { Form, Button, Row, Col } from 'react-bootstrap';
-import { Styles } from '../Sign_up_Components/EditSignUpForms'
+import { Styles } from '../Sign_up_Components/EditSignUpForms';
 import { Formik, useField, useFormikContext, Form as Form1 } from 'formik';
-import * as Yup from 'yup'
-import '../../index.css'
+import * as Yup from 'yup';
+import '../../index.css';
 import API from "../../utils/API";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
