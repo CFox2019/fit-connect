@@ -1,38 +1,38 @@
-import React from 'react'
+import React from 'react';
 import { CardDeck, Card } from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
-import cardImage from '../../Assets/differentLevels.svg'
-import cardImage2 from '../../Assets/findGroup.svg'
-import cardImage3 from '../../Assets/howWeWork.svg'
-import "./Cards.css"
+import differentLevels from '../../Assets/differentLevels.svg';
+import findGroup from '../../Assets/findGroup.svg';
+import howWeWork from '../../Assets/howWeWork.svg';
+import "./Cards.css";
 
 
 export const Cards = () => (
     <>
         <CardDeck id="features" className="text-center alignCard">
             <Card className="border-0 align-items-center">
-                <Card.Img className="" id="sizeCardImg" variant="top" src={cardImage} />
+                <Card.Img className="sizeCardImg" id="featuresImg" variant="top" src={differentLevels} />
                 <Card.Body>
                     <Card.Title><h5>DIFFERENT LEVELS</h5></Card.Title>
-                    <Card.Text className="text">
+                    <Card.Text className="feature-info">
                         FIT-CONNECT welcomes all fitness levels from beginner to advanced.
                     </Card.Text>
                 </Card.Body>
             </Card>
             <Card className="border-0 align-items-center">
-                <Card.Img id="sizeCardImg" variant="top" src={cardImage2} />
+                <Card.Img id="featuresImg" variant="top" src={findGroup} />
                 <Card.Body>
                     <Card.Title><h5>FIND YOUR GROUP</h5></Card.Title>
-                    <Card.Text className="text">
+                    <Card.Text className="feature-info">
                         Look for groups based on the things that you enjoy doing or try something new!
                     </Card.Text>
                 </Card.Body>
             </Card>
             <Card className="border-0 align-items-center">
-                <Card.Img id="sizeCardImg" variant="top" src={cardImage3} />
+                <Card.Img id="featuresImg" variant="top" src={howWeWork} />
                 <Card.Body>
                     <Card.Title><h5>HOW WE WORK</h5></Card.Title>
-                    <Card.Text className="text">
+                    <Card.Text className="feature-info">
                     FIT-CONNECT provides opportunities for people to connect with others to produce results!
                     </Card.Text>
                 </Card.Body>
