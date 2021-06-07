@@ -17,7 +17,7 @@ export const Styles = styled.div`
   }
 
   .error {
-    color: red;'
+    color: red;
     font-size: 0.6em;
   }
 
