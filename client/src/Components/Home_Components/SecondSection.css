@@ -2,7 +2,7 @@
     font-family: roboto;
 }
 
-.img2Div{
+.groupYogaDiv{
     height: auto;
     width: auto;
     aspect-ratio: 1;
@@ -10,8 +10,8 @@
     background-position: center center;
 }
 
-.img2 {
-    background-image: url('../../Assets/img5.png');
+.groupYoga {
+    background-image: url('../../Assets/zoomYoga.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;

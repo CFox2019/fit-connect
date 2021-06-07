@@ -2,7 +2,7 @@
   font-family: roboto;
 }
 
-.groupWalkImgDiv{
+.groupWalkDiv{
   height: 500px;
   width: auto;
   aspect-ratio: 1;
@@ -10,9 +10,9 @@
   background-position: center center;
 }
 
-.groupWalkImg {
+.groupWalk {
   border-radius: 50%;
-  background-image: url('../../Assets/img1.jpg');
+  background-image: url('../../Assets/groupWeights.jpg');
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -26,7 +26,7 @@
 
 @media only screen and (max-device-width: 500px) {
 
-  .groupWalkImgDiv{
+  .groupWalkDiv{
     height: 350px;
     width: auto;
     aspect-ratio: 1;

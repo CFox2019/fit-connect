@@ -1,9 +1,9 @@
 import React from 'react'
 import { CardDeck, Card } from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
-import cardImage from '../../Assets/roundedimg01.svg'
-import cardImage2 from '../../Assets/roundedimg02.svg'
-import cardImage3 from '../../Assets/roundedimg03.svg'
+import cardImage from '../../Assets/differentLevels.svg'
+import cardImage2 from '../../Assets/findGroup.svg'
+import cardImage3 from '../../Assets/howWeWork.svg'
 import "./Cards.css"
 
 

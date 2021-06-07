@@ -22,8 +22,8 @@ export const FirstSection = () => (
           </CardDeck>
         </Col>
         <Col xl="6">
-          <div className="groupWalkImgDiv">
-            <div className="groupWalkImg mt-5" alt="people-training"></div>
+          <div className="groupWalkDiv">
+            <div className="groupWalk mt-5" alt="people-training"></div>
           </div>
         </Col>
       </Row>

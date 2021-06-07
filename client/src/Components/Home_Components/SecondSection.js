@@ -8,8 +8,8 @@ export const SecondSection = () => (
     <Container className="Container">
       <Row id="marginRow">
         <Col xl="6" className="left_bottom">
-          <div className="img2Div">
-            <div className="img2" alt="people-training"></div>
+          <div className="groupYogaDiv">
+            <div className="groupYoga" alt="people-training"></div>
           </div>
         </Col>
         <Col xl="6" className="right_top">
