@@ -4,10 +4,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import differentLevels from '../../Assets/differentLevels.svg';
 import findGroup from '../../Assets/findGroup.svg';
 import howWeWork from '../../Assets/howWeWork.svg';
-import "./Cards.css";
+import "./Features.css";
 
 
-export const Cards = () => (
+export const Features = () => (
     <>
         <CardDeck id="features" className="text-center alignCard">
             <Card className="border-0 align-items-center">
