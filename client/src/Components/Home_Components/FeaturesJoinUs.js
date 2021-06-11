@@ -1,6 +1,6 @@
-import React from 'react'
-import { Row, Container, Col, CardDeck, Card, Button } from 'react-bootstrap'
-import "./FeaturesJoinUs.css"
+import React from 'react';
+import { Row, Container, Col, CardDeck, Card, Button } from 'react-bootstrap';
+import "./FeaturesJoinUs.css";
 
 export const FeaturesJoinUs = () => (
 
