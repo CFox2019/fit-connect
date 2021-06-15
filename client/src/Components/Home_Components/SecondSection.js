@@ -1,6 +1,6 @@
-import React from 'react'
-import { Row, Container, Col, CardDeck, Card, Button } from 'react-bootstrap'
-import "./SecondSection.css"
+import React from 'react';
+import { Row, Container, Col, CardDeck, Card, Button } from 'react-bootstrap';
+import "./SecondSection.css";
 
 
 export const SecondSection = () => (
