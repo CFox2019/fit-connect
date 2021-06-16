@@ -1,9 +1,9 @@
 import React from 'react';
 import { Row, Container, Col, CardDeck, Card, Button } from 'react-bootstrap';
-import "./SecondSection.css";
+import "./SecondFeaturesJoinUs.css";
 
 
-export const SecondSection = () => (
+export const SecondFeaturesJoinUs = () => (
   <>
     <Container className="Container">
       <Row id="marginRow">

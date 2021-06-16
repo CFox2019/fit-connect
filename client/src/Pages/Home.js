@@ -4,7 +4,7 @@ import { HeroCarousel } from '../Components/Home_Components/HeroCarousel'
 import { Layout } from '../Components/Home_Components/Layout';
 import { Features } from '../Components/Home_Components/Features';
 import { FeaturesJoinUs } from '../Components/Home_Components/FeaturesJoinUs';
-import { SecondSection } from '../Components/Home_Components/SecondSection';
+import { SecondFeaturesJoinUs } from '../Components/Home_Components/SecondFeaturesJoinUs';
 import { FooterSection } from '../Components/Home_Components/Footer';
 import { FooterContent } from '../Components/Home_Components/FooterContent';
 
@@ -21,7 +21,7 @@ export const Home = () => {
           <Features />
         </Layout>
         <FeaturesJoinUs />
-        <SecondSection />
+        <SecondFeaturesJoinUs />
 
       {/* Footer */}
         <FooterSection>
