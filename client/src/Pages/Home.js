@@ -1,6 +1,6 @@
 import React from 'react';
 import NavigationBar from '../Components/Home_Components/NavigationBar';
-import { HeroCarousel } from '../Components/Home_Components/HeroCarousel'
+import { ConnectPeopleHero } from '../Components/Home_Components/ConnectPeopleHero';
 import { Layout } from '../Components/Home_Components/Layout';
 import { Features } from '../Components/Home_Components/Features';
 import { FeaturesJoinUs } from '../Components/Home_Components/FeaturesJoinUs';
@@ -16,7 +16,7 @@ export const Home = () => {
           <NavigationBar />
         </Layout>
 
-        <HeroCarousel />
+        <ConnectPeopleHero />
         <Layout>
           <Features />
         </Layout>
